@@ -43,6 +43,7 @@ Open Command Prompt and run:
 
 ipconfig /all
 
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/23e403d45c2d0ebf072889026aed61f68ccda0e5/ipconfig%20cmd%20.png)
 
 Identify the active network adapter.
 
