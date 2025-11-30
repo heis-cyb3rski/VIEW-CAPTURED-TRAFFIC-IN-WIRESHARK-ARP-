@@ -125,7 +125,7 @@ Corresponding MAC addresses
 
 Entry types (dynamic/static)
 
-✔️ What You Learn
+✔️ What I Learnt in this Lab
 
 How ARP resolves Layer 3 addresses to Layer 2.
 
@@ -135,40 +135,3 @@ How to interpret Ethernet and ARP headers.
 
 How to manually inspect the ARP cache on a PC.
 
-If you want, I can also generate:
-✅ A short summary version
-✅ A README with images/screenshots placeholders
-✅ A version with a table of contents
-Just tell me!
-
-You said:
-What should be in the descirption section of my github
-ChatGPT said:
-
-Here are strong, clean, GitHub-ready description options you can use. Pick one depending on how professional or simple you want it to look.
-
-🔹 Short & Professional (Recommended)
-
-A lab project demonstrating how to capture, inspect, and analyze ARP traffic using Wireshark. Includes steps for installing Wireshark, filtering ARP packets, examining ARP request/reply frames, and viewing ARP cache entries on a Windows PC.
-
-🔹 Concise
-
-Capture and analyze ARP network traffic in Wireshark and view ARP cache entries using Windows command-line tools.
-
-🔹 Full Description (More Detailed)
-
-This project walks through capturing and analyzing ARP traffic using Wireshark. It covers retrieving local network interface information, filtering ARP packets, inspecting Ethernet and ARP headers, identifying ARP requests and replies, and viewing local ARP cache entries on a Windows PC. Useful for networking students learning ARP, Wireshark, and packet-level analysis.
-
-🔹 If you want something more visually appealing
-
-Educational Wireshark lab focused on ARP analysis. Learn how devices discover each other on a LAN by capturing ARP requests/replies, identifying MAC-to-IP mappings, and viewing ARP cache entries. Great for CCNA and networking fundamentals practice.
-
-If you want, I can tailor the description to:
-
-match your README style,
-
-include keywords for GitHub search,
-
-or sound more beginner-friendly or more advanced.
-
-Just tell me which vibe you want.
