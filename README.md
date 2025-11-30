@@ -45,9 +45,7 @@ ipconfig /all
 
 ![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/23e403d45c2d0ebf072889026aed61f68ccda0e5/ipconfig%20cmd%20.png)
 
-Identify the active network adapter.
-
-Record:
+Identify the active network adapter
 
 IPv4 Address
 
@@ -56,6 +54,8 @@ MAC Address (Physical Address)
 🐬 Step 2: Start Wireshark and Capture ARP Packets
 
 Launch Wireshark.
+
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/wireshark%20GUI.png)
 
 Select the network interface identified earlier.
 
@@ -66,9 +66,11 @@ arp
 
 Start packet capture (shark fin icon).
 
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/Wireshark%20analyzing%20PDU%2Cs%20.png)
+
 In Command Prompt, ping the default gateway:
 
-ping <default-gateway-ip>
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/Ping%20Default%20Gateway.png)
 
 
 Stop capture (red square icon).
@@ -76,6 +78,8 @@ Stop capture (red square icon).
 📂 Step 3: Analyze Captured ARP Frames
 
 Wireshark displays captured data in three panes:
+
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/identifying%20the%20levels%20of%20wireshark.png)
 
 Top: Summary of captured packets.
 
@@ -91,9 +95,15 @@ Your MAC = Source
 
 Destination = Broadcast
 
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/broadcast%20.png)
+
 Expand Ethernet II → view Source & Destination MACs.
 
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/ethernet%20sevtion%20.png)
+
 Expand Address Resolution Protocol (Request) → inspect ARP fields.
+
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/ARP%20section%20.png)
 
 📨 Step 4: Identify Matching ARP Response
 
@@ -117,6 +127,7 @@ Use:
 
 arp -a
 
+![image](https://github.com/heis-cyb3rski/VIEW-CAPTURED-TRAFFIC-IN-WIRESHARK-ARP-/blob/60e7530c1b02640298da98fd25403f6a3ff752a7/ARP%20Cache.png)
 
 Review:
 
